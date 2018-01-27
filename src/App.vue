@@ -8,9 +8,9 @@
 
         <div class="card p-3" v-for="(post, key) in posts">     
           <blockquote v-bind:key="index" class="card-blockquote">
-            <p>
+            <b>
               {{ post.data.title }}
-            </p>
+            </b>
             <footer>
               <small>
                 <div><a target="_blank" :href="post.data.url">
@@ -27,7 +27,7 @@
       </div>
         
       <div class="text-center" v-show="postsLoading">
-        Loading...
+        <jumbotron>Loading...</jumbotron>
       </div>
     </div>
   </div>
@@ -81,3 +81,18 @@
     }
   }
 </script>
+
+<style>
+body {
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+.card b {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+  color: #333;
+}
+
+</style>

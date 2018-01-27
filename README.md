@@ -1,6 +1,7 @@
-# axiosdemo
+# RADdit
 
-> A Vue.js project
+> A rad reddit clone written in Vuejs.
+> Does not do much at all - I honestly wouldn't bother cloning at this stage...
 
 ## Build Setup
 
@@ -27,4 +28,3 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
